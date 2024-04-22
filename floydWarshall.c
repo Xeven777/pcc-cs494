@@ -69,3 +69,37 @@ int main()
     floydWarshall(v, graph);
     return 0;
 }
+
+// when edges[i] = [fromi, toi, weighti] is given ::
+// int main()
+// {
+//     int v;
+//     printf("Enter the number of vertices : ");
+//     scanf("%d", &v);
+//     int graph[v][v];
+
+//     for (int i = 0; i < v; i++)
+//     {
+//         for (int j = 0; j < v; j++)
+//         {
+//             if (i == j)
+//                 graph[i][j] = 0;
+//             else
+//                 graph[i][j] = INF;
+//         }
+//     }
+
+//     printf("Enter the number of edges : ");
+//     int e;
+//     scanf("%d", &e);
+//     printf("Enter the edges (from, to, weight):\n");
+//     for (int i = 0; i < e; i++)
+//     {
+//         int from, to, weight;
+//         scanf("%d %d %d", &from, &to, &weight);
+//         graph[from][to] = weight;
+//     }
+
+//     floydWarshall(v, graph);
+//     return 0;
+// }
